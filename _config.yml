@@ -1,0 +1,12 @@
+# url: https://meet.paulwillard.nz
+# baseurl: /
+site_name: "Web Server "
+timezone: Pacific/Auckland
+description: "The default Web Server page, by Net Enterprises Ltd New Zealand"
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+        - assets/css
+    style: compressed
+exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, sublime_text.lia, pphp, assets/php/2018-php.paulwillard.nz, Makefile]
